@@ -3,7 +3,7 @@ const app = express();
 
 // rota inicial
 app.get("/", (req, res) => {
-  res.send("<h1>Bem vindo, Professor!</h1>");
+  res.send("<h1>Bem vindo, Professor novamente!</h1>");
 });
 
 // rota de aula
