@@ -27,10 +27,11 @@ app.get("/aluno/{:nome}", (req, res) => {
 });
 
 // inicia o servidor
-app.listen(process.env.PORT ?? 4000, (erro) => {
+app.listen(process.env.PORT ?? 3000, (erro) => {
   if (erro) {
     console.log("Erro ao Iniciar.");
   } else {
     console.log("Servidor Iniciado.");
   }
 });
+
